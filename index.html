@@ -969,7 +969,8 @@
                 sound.volume = parseInt(data.winner) * 0.01
             }
             eliminateAudio.volume = parseInt(data.elimination) * 0.01
-            countdownAudio.volume = parseInt(data.countdown) * 0.01
+            tickAudio.volume = parseInt(data.countdown) * 0.01
+            countdownAudio.volume = parseInt(data.countdownEnd) * 0.01
         }
         /* Websocket script */
         let myCatInterval;
